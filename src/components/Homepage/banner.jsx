@@ -18,7 +18,7 @@ function Homebanner() {
 <img src={myPic} alt="car" style={{width:'50%',height:'300px',objectFit:'contain'}} /> */}
         </div>
         <h2 className="head" style={css}>
-          Discover Our Amazing Services Mohit
+          Discover Our Amazing Services Mohit sexy girl
         </h2>
         <p className="para">
           We help businesses grow by building beautiful websites using React.
