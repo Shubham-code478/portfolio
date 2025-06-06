@@ -18,7 +18,8 @@ function Homebanner() {
 <img src={myPic} alt="car" style={{width:'50%',height:'300px',objectFit:'contain'}} /> */}
         </div>
         <h2 className="head" style={css}>
-          Discover Our Amazing Services Mohit sexy girl
+          Discover Our Amazing Services Mohit sexy girl 
+          shubham is gay
         </h2>
         <p className="para">
           We help businesses grow by building beautiful websites using React.
