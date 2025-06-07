@@ -1,4 +1,3 @@
-
 // import React, { useEffect, useState } from "react";
 
 // function Reviews() {
@@ -39,7 +38,6 @@
 
 // export default Reviews;
 
-
 // try {
 //         const response = await fetch(`ddddd/yelp-business-review-list`, {
 //             method: 'POST',
@@ -50,11 +48,11 @@
 //             body: JSON.stringify(payload),
 //         });
 //         const data = await response.json();
- 
+
 //         if (!response.ok) {
 //             throw new Error(data.message || 'Something went wrong');
 //         }
- 
+
 //         return data;
 //     } catch (error) {
 //         throw error;
