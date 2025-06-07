@@ -1,14 +1,15 @@
-import React from 'react';
+import React from "react";
 
-function blogs () {
-
-    return (
-   <section className="home-main">
-      <h2>Blogs</h2>
+function blogs() {
+  const head = {
+    textAlign: "center",
+    color: "green",
+  };
+  return (
+    <section className="home-main">
+      <h2 style={head}>Blogs</h2>
     </section>
-        
-    )
-    
+  );
 }
 
 export default blogs;

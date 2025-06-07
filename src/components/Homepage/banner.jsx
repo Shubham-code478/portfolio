@@ -1,7 +1,7 @@
 import React from "react";
 import Css from "../../components/Homepage/home.css";
 
-function Homebanner() {
+function Home() {
   const handleClick = () => {
     alert("hello shubham kse ho");
   };
@@ -18,8 +18,7 @@ function Homebanner() {
 <img src={myPic} alt="car" style={{width:'50%',height:'300px',objectFit:'contain'}} /> */}
         </div>
         <h2 className="head" style={css}>
-          Discover Our Amazing Services 
-          
+          Discover Our Amazing Services
         </h2>
         <p className="para">
           We help businesses grow by building beautiful websites using React.
@@ -30,7 +29,6 @@ function Homebanner() {
       </div>
     </section>
   );
-
 }
 
-export default Homebanner;
+export default Home;
