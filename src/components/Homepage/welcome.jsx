@@ -13,6 +13,7 @@ function Welcomebanner() {
 <h2 className='headinge'>In the Heart of the Mountain</h2>
 <h4 className='headinged'>4.9 out of 5</h4>
 <p className='comes'>Based on 25000+ reviews</p>
+<h6>hii byy</h6>
             </div>
             </div>
         </section>
