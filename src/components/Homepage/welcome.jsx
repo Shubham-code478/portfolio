@@ -9,6 +9,7 @@ function Welcome() {
     textAlign: "center",
     marginBottom: "30px",
     marginTop: "30px",
+    fontFamily:"cursive"
   };
   return (
     <section className="welcome">
