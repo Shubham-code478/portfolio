@@ -1,13 +1,12 @@
 import React from "react";
+import Aboutnext from "../components/Aboutus/aboutnext"
 
 function About() {
-  const headingform = {
-    color: "red",
-    textAlign: "center",
-    marginTop: "40px",
-    padding: "15px",
-  };
-  return <h1 style={headingform}>About Us</h1>;
-}
+return (
+  <section className="about-main">
+    <Aboutnext/>
+  </section>
 
+);
+}
 export default About;

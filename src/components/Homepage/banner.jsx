@@ -1,6 +1,8 @@
 import React from "react";
 import Css from "../../components/Homepage/home.css";
 
+import { FaHome, FaUser, FaAngellist } from "react-icons/fa";
+
 function Home() {
   const handleClick = () => {
     alert("hello shubham kse ho");
@@ -12,11 +14,13 @@ function Home() {
   return (
     <section className="home-container">
       <div className="hero-section">
-        <h1 className="heading">Welcome to the Home Page</h1>
-        <div className="item">
-          {/* <img src={myImage}  alt="Bike" style={{ width: '50%',height:'300px',  objectFit: 'contain',borderRadius: '20px' }}/>
-<img src={myPic} alt="car" style={{width:'50%',height:'300px',objectFit:'contain'}} /> */}
-        </div>
+        <h1 className="heading">
+          Welcome to the Home Page
+          <FaHome />
+          <FaUser />
+          <FaAngellist />
+        </h1>
+        <div className="item"></div>
         <h2 className="head" style={css}>
           Discover Our Amazing Services
         </h2>
